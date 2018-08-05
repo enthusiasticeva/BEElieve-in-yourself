@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #9BDBF5;
+}
+#backarrow {
+	position: absolute;
+	transform: rotate(90deg);
+	width: 10%;
+	left: 2%;
+	top: 50%;
+}
+#title {
+	width: 25%;
+	position: absolute;
+	left: 35%;
+}
+
+h1 {
+	position: absolute;
+	font-family: Brusher;
+	color: white;
+	font-size: 45px;
+	top: 25%;
+}
+
+#wherebees {
+	position: absolute;
+	left: 13%;
+	width: 33%;
+}
+#whereexpl {
+	position: absolute;
+	width: 33%;
+	left: 13%;
+	top: 47%;
+	font-family: "Roboto-Light";
+	font-size: 9.7pt;
+	color: #413c3c;
+}
+#beefilm {
+	position: absolute;
+	width: 240pt;
+	height: 135pt;
+	left: 54%;
+	bottom: 5%;
+}
+#globe {
+	width: 23%;
+	opacity: 0.4;
+	z-index: -1;
+	position: absolute;
+	left: 17%;
+	bottom: 5%;
+}
+#helptitle {
+	position: absolute;
+	left: 52%;
+}
+
+.hexagon {
+	width: 3%;
+	position: absolute;
+	left: 52%;	
+}
+
+#hex1 {
+	position: absolute;
+	top: 40%;
+}
+
+#hex2 {
+	position: absolute;
+	top: 46%;
+}
+
+#hex3 {
+	position: absolute;
+	top: 52%;
+}
+
+#hex4 {
+	position: absolute;
+	top: 58%;
+}
+.helps {
+	position: absolute;
+	width: 33%;
+	left: 55.5%;
+	font-family: "Roboto-Light";
+	font-size: 15pt;
+	color: #413c3c;
+}
+#help1 {
+	position: absolute;
+	top: 37%;
+}
+#help2 {
+	position: absolute;
+	top: 43%;
+}
+#help3 {
+	position: absolute;
+	top: 49%;
+}
+#help4 {
+	position: absolute;
+	top: 55%;
+}
+
+#reference {
+	position: absolute;
+	width: 240pt;
+	left: 54%;
+	bottom: 2%;
+	font-family: "Roboto-Light";
+	font-size: 5pt;
+	color: #413c3c;
+}

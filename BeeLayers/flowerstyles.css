@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #9BDBF5;
+}
+#arrow {
+	position: absolute;
+	transform: rotate(270deg);
+	width: 10%;
+	right: 2%;
+	top: 50%;
+}
+#backarrow {
+	position: absolute;
+	transform: rotate(90deg);
+	width: 10%;
+	left: 2%;
+	top: 50%;
+}
+
+#flower {
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	width: 25%;
+}
+
+/*#title {
+	font-family: Brusher;
+	font-size: 50pt;
+	color:#303030;
+	font-style: normal;
+	position: absolute;
+	top: -10%;
+	left: 2%;
+}*/
+
+#titleimage {
+	width: 30%;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+#bee {
+	width: 10%;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	transform: rotate(-20deg);
+}
+
+.number {
+	width: 7%;
+	left: 45%;
+	opacity: 1;
+}
+
+
+.line {
+	position: absolute;
+	right: 200%;
+	width: 10%;
+}
+
+.info {
+	position: absolute;
+	text-align: right;
+	right: 200%;
+}
+
+span {
+	position: fixed;
+	top: 450px;
+	right: 70%;
+}
+a.tooltip {
+	outline: none;
+}
+a.tooltip:hover {
+	text-decoration: none;
+}
+span {
+	position: absolute;
+	top: 140px;
+	left: 0;
+	
+}
+a.tooltip span {
+    z-index:10;
+	display:none; 
+	padding:14px 20px;
+    margin-top:60px; 
+	margin-left:-160px;
+    width:300px; 
+	line-height:16px;
+}
+
+a.tooltip:hover span {
+	display:inline;
+	position:absolute;
+	
+}
+
+.line {
+	position: absolute;
+	right: -250%;
+	height: 10%;
+	width: 115%;
+}
+
+.info {
+	text-align: right;
+}
+
+#three {
+	position: absolute;
+	top: 70%;
+}
+
+#two {
+	position: absolute;
+	top: 55%;
+}
+
+#one {
+	position: absolute;
+	top: 40%;
+}
+
+h1,p {
+	color: #413c3c;
+	font-size: 100%;
+	text-align: justify;
+    text-justify: inter-word;
+	position: fixed;
+	right: 20%;
+}
+
+p {
+	width: 20%;
+	font-family: "Roboto-Light";
+}
+
+h1 {
+	font-size: 130%;
+	font-family: Brusher;
+}
+
+#oneline, #oneinfo {
+	position: absolute;
+	top: 300%;
+}
+
+#oneinfo {
+	position: absolute;
+	top: 350%;
+}
+
+ 
+#twoline, #twoinfo {
+	position: absolute;
+	top: 675%
+}
+
+#threeline {
+	position: absolute;
+	top: 1050%
+}
+#threeinfo {
+	position: absolute;
+	top: 450%;
+}
+
+#tree {
+	position: fixed;
+	bottom: -2pt;
+	right:-2pt;
+	height: 101%;
+	z-index: -1;
+}

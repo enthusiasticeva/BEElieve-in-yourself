@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #9BDBF5;
+}
+#arrow {
+	position: absolute;
+	transform: rotate(270deg);
+	width: 10%;
+	right: 2%;
+	top: 50%;
+}
+#backarrow {
+	position: absolute;
+	transform: rotate(90deg);
+	width: 10%;
+	left: 2%;
+	top: 50%;
+}
+#comboutline {
+	width: 30%;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+}
+#screen {
+	height: 100%;
+	width: 100%;
+}
+
+
+#forward {
+	position: absolute;
+	right: 15%;
+	top: 60%;
+	
+}
+
+#backward {
+	right: 20%;
+	top: 60%;
+	
+}
+
+
+
+.step {
+	
+}
+
+#step1 {
+	width: 25%;
+	position: absolute;
+	left: 32%;
+	top: 33%;
+	opacity: 1;
+	transition: .3s;
+}
+
+#step2 {
+	width: 20%;
+	position: absolute;
+	left: 31%;
+	top: 43%;
+	opacity: 0;
+	transition: .3s;
+}
+
+#step3 {
+	width: 13%;
+	position: absolute;
+	left: 31%;
+	top: 46%;
+	opacity: 0;
+	transition: .3s;
+}
+
+#step4 {
+	width: 30%;
+	position: absolute;
+	left: 30.70%;
+	top: 19.5%;
+	opacity: 0;
+	transition: .3s;
+}
+
+#step5 {
+	width: 15%;
+	position: absolute;
+	left: 31%;
+	top: 44%;
+	opacity: 0;
+	transition: .3s;
+}
+
+#step6 {
+	width: 20%;
+	position: absolute;
+	left: 37%;
+	top: 28%;
+	opacity: 0;
+	transition: .3s;
+}
+
+#title {
+	text-align: right;
+	position: absolute;
+	right: 15%;
+	top: 35%
+}
+#details {
+	text-align: right;
+	position: absolute;
+	right: 15%;
+	top: 51%;
+}
+
+.button {
+	background-color: #9BDBF5;
+    border: none;
+    padding: none;
+	position: absolute;
+}
+
+
+.arrowbutton {
+	width: 20px;
+	
+}
+
+#Beetitle {
+	position:relative;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,p {
+	color: #413c3c;
+	font-size: 100%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+	font-size: 45pt;
+	font-family: Brusher;
+	color: white;
+	
+}
+
+p {
+	font-family: "Roboto-Light";
+	font-size: 15pt;
+}
